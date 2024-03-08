@@ -25,6 +25,7 @@ class Configuration
         return $data;
     }
 
+
     /** @return array */
     static public function load($subset)
     {
