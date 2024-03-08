@@ -1,4 +1,5 @@
 <?php
+
 namespace CompariqoIntegration;
 
 class Configuration

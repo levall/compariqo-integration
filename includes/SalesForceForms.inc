@@ -1,4 +1,7 @@
 <?php
+
+namespace CompariqoIntegration;
+
 Class SalesForceForms
 {
     const ContactForm = 'ContactForm';
@@ -9,7 +12,7 @@ Class SalesForceForms
 
     public static function show($form)
     {
-        $path = get_template_directory() . '/templates/' . $form . '.php';
+        $path = COMPARIQO_INTEGRATION_DIR . 'templates/' . $form . '.php';
         include $path;
     }
 
